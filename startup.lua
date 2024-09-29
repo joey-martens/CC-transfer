@@ -9,10 +9,10 @@ end
 
 -- Define a table of files to download with their names and URLs
 local filesToDownload = {
-  {name = "create_route.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/blob/main/create_route.lua"},
-  {name = "edit_delete_route.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/blob/main/edit_delete_route.lua"},
-  {name = "execute_routes.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/blob/main/execute_routes.lua"},
-  {name = "menu.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/blob/main/menu.lua"},
+  {name = "create_route.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/refs/heads/main/create_route.lua"},
+  {name = "edit_delete_route.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/refs/heads/main/edit_delete_route.lua"},
+  {name = "execute_routes.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/refs/heads/main/execute_routes.lua"},
+  {name = "menu.lua", url = "https://raw.githubusercontent.com/joey-martens/CC-transfer/refs/heads/main/menu.lua"},
 }
 
 -- Function to download a file using wget
